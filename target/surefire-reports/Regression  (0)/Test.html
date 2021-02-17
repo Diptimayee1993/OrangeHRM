@@ -1,0 +1,174 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Feb 17 00:49:54 IST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>228 seconds (228622 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.HomePageTest.ClickOnRecruitmentPage()'><b>ClickOnRecruitmentPage</b><br>Test class: com.orangeHRM.qa.testdata.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>com.orangeHRM.qa.testdata.HomePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.AdminPageTest.ClickOnSearchBtn()'><b>ClickOnSearchBtn</b><br>Test class: com.orangeHRM.qa.testdata.AdminPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.AdminPageTest@6b0c2d26</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.HomePageTest.ClickonPIMLink()'><b>ClickonPIMLink</b><br>Test class: com.orangeHRM.qa.testdata.HomePageTest</td>
+<td></td>
+<td>2</td>
+<td>com.orangeHRM.qa.testdata.HomePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.HomePageTest.ClickonPerformanceLink()'><b>ClickonPerformanceLink</b><br>Test class: com.orangeHRM.qa.testdata.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.HomePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.IncludeBoxTest()'><b>IncludeBoxTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.JobTitleTest()'><b>JobTitleTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.LoginPageTest.LoginpageImageTest()'><b>LoginpageImageTest</b><br>Test class: com.orangeHRM.qa.testdata.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.LoginPageTest@1c72da34</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.LoginPageTest.OHRMPageTitleTest()'><b>OHRMPageTitleTest</b><br>Test class: com.orangeHRM.qa.testdata.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.LoginPageTest@1c72da34</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.SearchBtnTest()'><b>SearchBtnTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>1</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.AdminPageTest.SelectUserName()'><b>SelectUserName</b><br>Test class: com.orangeHRM.qa.testdata.AdminPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.AdminPageTest@6b0c2d26</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.SubUnitTest()'><b>SubUnitTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.ValidateEMPStausTest()'><b>ValidateEMPStausTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.ValidateIDnameTest()'><b>ValidateIDnameTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.PIMPageTest.VerifyEmpNameTest()'><b>VerifyEmpNameTest</b><br>Test class: com.orangeHRM.qa.testdata.PIMPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.PIMPageTest@3d3fcdb0</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.HomePageTest.VerifyLogonameLabel()'><b>VerifyLogonameLabel</b><br>Test class: com.orangeHRM.qa.testdata.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.HomePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.AdminPageTest.VerifyUserKeywordlabel()'><b>VerifyUserKeywordlabel</b><br>Test class: com.orangeHRM.qa.testdata.AdminPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.AdminPageTest@6b0c2d26</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.HomePageTest.VeriyHomepagetitleTest()'><b>VeriyHomepagetitleTest</b><br>Test class: com.orangeHRM.qa.testdata.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.HomePageTest@49e202ad</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.AdminPageTest.handeldropdown()'><b>handeldropdown</b><br>Test class: com.orangeHRM.qa.testdata.AdminPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.orangeHRM.qa.testdata.AdminPageTest@6b0c2d26</td></tr>
+<tr>
+<td title='com.orangeHRM.qa.testdata.LoginPageTest.loginpageTest()'><b>loginpageTest</b><br>Test class: com.orangeHRM.qa.testdata.LoginPageTest</td>
+<td></td>
+<td>4</td>
+<td>com.orangeHRM.qa.testdata.LoginPageTest@1c72da34</td></tr>
+</table><p>
+</body>
+</html>
