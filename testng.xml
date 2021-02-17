@@ -4,9 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.orangeHRM.qa.testdata.HomePageTest"/>
-      <class name="com.orangeHRM.qa.testdata.LoginPageTest"/>
-      <class name="com.orangeHRM.qa.testdata.AdminPageTest"/>
-      <class name="com.orangeHRM.qa.testdata.PIMPageTest"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Regression  -->
