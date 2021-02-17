@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression " duration-ms="51969" started-at="2021-02-15T16:35:27Z" finished-at="2021-02-15T16:36:19Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51969" started-at="2021-02-15T16:35:27Z" finished-at="2021-02-15T16:36:19Z">
+      <class name="com.orangeHRM.qa.testdata.AdminPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.testdata.AdminPageTest@4b168fa9]" name="setUp" is-config="true" duration-ms="15995" started-at="2021-02-15T16:35:47Z" finished-at="2021-02-15T16:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyUserKeywordlabel()[pri:1, instance:com.orangeHRM.qa.testdata.AdminPageTest@4b168fa9]" name="VerifyUserKeywordlabel" duration-ms="132" started-at="2021-02-15T16:36:03Z" finished-at="2021-02-15T16:36:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserKeywordlabel -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.orangeHRM.qa.testdata.AdminPageTest@4b168fa9]" name="Teardown" is-config="true" duration-ms="697" started-at="2021-02-15T16:36:03Z" finished-at="2021-02-15T16:36:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.orangeHRM.qa.testdata.AdminPageTest -->
+      <class name="com.orangeHRM.qa.testdata.PIMPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.testdata.PIMPageTest@1a84f40f]" name="setUp" is-config="true" duration-ms="14322" started-at="2021-02-15T16:36:04Z" finished-at="2021-02-15T16:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VerifyEmpNameTest()[pri:1, instance:com.orangeHRM.qa.testdata.PIMPageTest@1a84f40f]" name="VerifyEmpNameTest" duration-ms="102" started-at="2021-02-15T16:36:18Z" finished-at="2021-02-15T16:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEmpNameTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.orangeHRM.qa.testdata.PIMPageTest@1a84f40f]" name="Teardown" is-config="true" duration-ms="689" started-at="2021-02-15T16:36:19Z" finished-at="2021-02-15T16:36:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.orangeHRM.qa.testdata.PIMPageTest -->
+      <class name="com.orangeHRM.qa.testdata.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.testdata.LoginPageTest@48524010]" name="setUp" is-config="true" duration-ms="6205" started-at="2021-02-15T16:35:40Z" finished-at="2021-02-15T16:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="OHRMPageTitleTest()[pri:1, instance:com.orangeHRM.qa.testdata.LoginPageTest@48524010]" name="OHRMPageTitleTest" duration-ms="12" started-at="2021-02-15T16:35:47Z" finished-at="2021-02-15T16:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OHRMPageTitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.orangeHRM.qa.testdata.LoginPageTest@48524010]" name="teardown" is-config="true" duration-ms="683" started-at="2021-02-15T16:35:47Z" finished-at="2021-02-15T16:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.orangeHRM.qa.testdata.LoginPageTest -->
+      <class name="com.orangeHRM.qa.testdata.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.orangeHRM.qa.testdata.HomePageTest@3ee0fea4]" name="setUp" is-config="true" duration-ms="12332" started-at="2021-02-15T16:35:27Z" finished-at="2021-02-15T16:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="VeriyHomepagetitleTest()[pri:1, instance:com.orangeHRM.qa.testdata.HomePageTest@3ee0fea4]" name="VeriyHomepagetitleTest" duration-ms="30" started-at="2021-02-15T16:35:40Z" finished-at="2021-02-15T16:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VeriyHomepagetitleTest -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:com.orangeHRM.qa.testdata.HomePageTest@3ee0fea4]" name="Teardown" is-config="true" duration-ms="702" started-at="2021-02-15T16:35:40Z" finished-at="2021-02-15T16:35:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.orangeHRM.qa.testdata.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression  -->
+</testng-results>

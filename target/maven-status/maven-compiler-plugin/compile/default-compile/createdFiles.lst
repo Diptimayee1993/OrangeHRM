@@ -1,0 +1,13 @@
+com\orangeHRM\qa\testdata\AdminPageTest.class
+com\orangeHRM\qa\testdata\PIMPageTest.class
+com\orangeHRM\qa\base\TestBase.class
+com\orangeHRM\qa\pages\PerformancePage.class
+com\orangeHRM\qa\util\TestUtil.class
+com\orangeHRM\qa\pages\RecruitmentPage.class
+com\orangeHRM\qa\testdata\HomePageTest.class
+com\orangeHRM\qa\pages\HomePage.class
+com\orangeHRM\qa\pages\PIMpage.class
+com\orangeHRM\qa\pages\AdminPage.class
+com\qa\ExtentReportListner\ExtentReportListner.class
+com\orangeHRM\qa\testdata\LoginPageTest.class
+com\orangeHRM\qa\pages\LoginPage.class
